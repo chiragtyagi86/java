@@ -8,7 +8,7 @@ class AgeException extends Exception {
 
 public class Main {
     static void checkAge(int age) throws AgeException {
-        if (age < 18) {
+        if (age < 18) { 
             throw new AgeException("Age must be 18 or above");
         }
     }

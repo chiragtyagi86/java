@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Demo7 {
 public static void main(String[] args) {
-  String[] line = {"Hello", "My" ,"Name" ,"is" ,"Chirag", "Tyagi"};
+  String[] line = {"Hello", "My" ,"Name" ,"is" ,"Chirag", "Tyagi", "Nama",};
     try{
         File obj = new File("myFile.text");
         if (obj.createNewFile()) {
